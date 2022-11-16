@@ -8,6 +8,7 @@ keywords = ["solana", "balanced", "client", "rpc"]
 license = "MIT"
 description = "A solana client wrapper for balancing requests to multiple RPCs"
 edition = "2021"
+readme = "README.md"
 
 [dependencies]
 chrono = "0.4.23"
