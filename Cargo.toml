@@ -2,8 +2,9 @@
 name = "solana-balanced-client"
 version = "0.1.0"
 authors = ["Julio Treviño Páez <julio@treviware.com>"]
-repository = "https://docs.rs/solana-balanced-client"
+repository = "https://github.com/juliotpaez/solana-balanced-client"
 documentation = "https://docs.rs/solana-balanced-client"
+keywords = ["solana", "balanced", "client", "rpc"]
 license = "MIT"
 description = "A solana client wrapper for balancing requests to multiple RPCs"
 edition = "2021"
