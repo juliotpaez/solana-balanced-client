@@ -1,0 +1,19 @@
+[package]
+name = "solana-balanced-client"
+version = "0.1.0"
+authors = ["Julio Treviño Páez <julio@treviware.com>"]
+repository = "https://docs.rs/solana-balanced-client"
+documentation = "https://docs.rs/solana-balanced-client"
+license = "MIT"
+description = "A solana client wrapper for balancing requests to multiple RPCs"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.23"
+serde = "1.0.147"
+serde_json = "1.0.87"
+solana-account-decoder = "1.14.7"
+solana-transaction-status = "1.14.7"
+solana-client = "1.14.7"
+solana-sdk = "1.14.7"
+tokio = { version = "1.21.2", features = ["sync"] }
